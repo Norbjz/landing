@@ -1,0 +1,85 @@
+* {
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    margin: 0;
+    color: #5a5a5a;
+}
+
+#head {
+    background-image: url(img/head.jpg);
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+.titulo {
+    top: 30px;
+    left: 45px;
+    font-size: 18px;
+    font-weight: 900;
+    position: absolute;
+}
+
+.social {
+	top: 30px;
+	right: 45px;
+	font-size: 20px;
+	position: absolute;
+}
+
+.social a {
+    margin-left: 20px;
+    color: white;
+}
+
+.textcent {
+    padding-top: 300px;
+    text-align: center;
+    width: 850px;
+    margin: 0 auto;
+}
+
+#head h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 15px 30px 16px;
+    border: 1px solid gainsboro;
+}
+
+#sub {
+    float: left;
+    width: 50%;
+}
+
+.btn {
+    border-radius: 50px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 17px 5px;
+    width: 40%;
+    background: tomato;
+    color: white;
+}
