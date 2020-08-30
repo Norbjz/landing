@@ -83,3 +83,56 @@ input {
     background: tomato;
     color: white;
 }
+
+#app {
+    height: 350px;
+    padding: 80px;
+}
+
+.store img {
+    height: 50px;
+}
+
+.appchar {
+    width: 50%;
+    float: right;
+}
+
+#app h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#app p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.celular {
+    max-width: 100%;
+}
+
+#opc {
+    height: 460px;
+    background-image: url(img/explor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aprende {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+    color: white;
+}
+
+.aprende h4 {
+    line-height: 26px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
