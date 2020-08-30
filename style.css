@@ -95,14 +95,19 @@ input {
     height: 50px;
 }
 
+.appcol{
+    display: flex;
+    justify-content: space-around;
+}
+
 .appchar {
-    width: 50%;
-    float: right;
+    width: 40%;
+    text-align: center;
 }
 
 #app h2 {
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
