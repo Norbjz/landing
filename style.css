@@ -84,6 +84,8 @@ input {
     color: white;
 }
 
+/* Aqui comienza la seccion app */
+
 #app {
     height: 350px;
     padding: 80px;
@@ -115,6 +117,8 @@ input {
     max-width: 100%;
 }
 
+/* Aqui comienza la seccion conoce más  */
+
 #opc {
     height: 460px;
     background-image: url(img/explor.jpg);
@@ -135,4 +139,82 @@ input {
     line-height: 26px;
     margin-top: 35px;
     margin-bottom: 20px;
+}
+
+/* Aqui comienzan los precios */
+
+#p-text {
+    height: 650px;
+    padding: 80px;
+    text-align: center;
+}
+
+.colum {
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.columna1 {
+    width: 30%;
+}
+
+.precios {
+    height: 550px;
+    border: 2px solid #5a5a5a;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 20px;
+}
+
+.p-head {
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.caracteristica li {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding: 24px;
+}
+
+.pmoney{
+    margin: 20px;
+}
+
+.pmoney .dinero {
+    font-weight: 700;
+    font-size: 46px;
+    margin: 10px;
+}
+
+.pmoney .sign {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ccc;
+    position: relative;
+    bottom: 10px;
+}
+
+#p-text .btn {
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Separador */
+
+#sep {
+    background: #f2f2f2;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
