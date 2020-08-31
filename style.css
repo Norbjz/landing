@@ -72,6 +72,9 @@ input {
     float: left;
     width: 50%;
 }
+#sub:hover {
+    box-shadow: 0 0 10px 4px #35495d;
+}
 
 .btn {
     border-radius: 50px;
@@ -82,6 +85,11 @@ input {
     width: 40%;
     background: tomato;
     color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: yellowgreen;
 }
 
 /* Aqui comienza la seccion app */
@@ -175,6 +183,7 @@ input {
 
 .p-head {
     font-weight: 700;
+    font-size: 35px;
     line-height: 80px;
     text-transform: uppercase;
     border-bottom: 2px solid #ccc;
@@ -222,4 +231,67 @@ ul {
     padding: 50px;
     margin-top: 20px;
     margin-bottom: 0px;
+}
+
+/* Contacto */
+
+.contact {
+    background: url(img/contacto2.jpg);
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.contact h1,.contact h2 {
+    font-weight: 700;
+    text-align: center;
+    color: white;
+} 
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #ddd;
+    padding: 20px 40px;
+    outline: none;
+    color: #333
+}
+
+.contact-text:hover {
+    box-shadow: 0 0 10px 4px #35495d;
+}
+
+textarea.contact-text {
+    resize: none;
+    height: 120px;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 15px 30px 16px;
+    border: 1px solid gainsboro;
+}
+
+.contact-form .btn {
+    float: right;
+}
+
+.socialfoot{
+    font-size: 60px;
+    margin: 15px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.socialfoot a {
+    margin-left: 20px;
+    color: white;
 }
